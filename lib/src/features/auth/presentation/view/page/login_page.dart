@@ -15,6 +15,20 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(title: const Text('Login')),
+      body: Container(
+        height: double.infinity,
+        width: double.infinity,
+        color: Colors.blueGrey[50],
+        child: Center(
+          child: Text(
+            'CREATE YOUR LOGIN HERE!',
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.headline2,
+          ),
+        ),
+      ),
+    );
   }
 }

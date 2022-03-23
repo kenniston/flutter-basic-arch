@@ -3,6 +3,8 @@ import 'package:mobx/mobx.dart';
 
 import '../../domain/usecase/login_usecase.dart';
 
+part 'login_viewmodel.g.dart';
+
 class LoginViewModel = _LoginViewModelBase with _$LoginViewModel;
 
 abstract class _LoginViewModelBase with Store {
